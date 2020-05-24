@@ -1,0 +1,73 @@
+
+/* *{box-sizing: border-box; } */
+
+/*important in order to avoid unwanted spaces around our webpage content! */
+*, *::before, *::after {
+   margin: auto;
+   padding: 0;
+   /* important to have width we desire as it includes border */
+   box-sizing: border-box;
+}
+
+/* body {margin: 0px; background: white;} */
+
+/* * {
+    border: 1px solid red; 
+} */
+
+
+.body {
+  flex-flow: column wrap;
+}
+
+.header {
+    background-color: white;
+}
+
+.header > h1 {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    max-width: 500px;
+}
+
+
+/* posts Section */
+
+.posts_area {
+    background-color: #e7e4e4;
+    padding-top: 100px;
+}
+
+.post {
+    background-color: white;
+   
+}
+
+.post_top {
+    display: flex;
+}
+
+.post_top > div:first-child {
+    float: left;
+    width: 100%; 
+}
+
+.post_top > p {
+    float: right;
+}
+
+.centered {
+    width: 75%;
+    max-width: 500px;
+    /* margin: auto; */
+}
+
+
+.post_image img {
+    width: 100%;
+}
+
+.test {
+    padding: 10px;
+}
